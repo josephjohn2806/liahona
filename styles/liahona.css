@@ -65,7 +65,7 @@ nav a.active {
    HERO SECTION
 --------------------------------*/
 .hero {
-    background-image: url("../images/safari-hero.jpg");
+    background-image: url("../images/park.jpg");
     background-size: cover;
     background-position: center;
     height: 75vh;

@@ -238,3 +238,253 @@ footer p {
     margin-top: 10px;
     font-size: 0.9rem;
 }
+
+
+
+
+
+/* ================================
+   ABOUT PAGE STYLES
+================================ */
+
+.about-hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                url("/images/park.jpg") center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.about-content {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.about-content p {
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+.mission-vision {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.mv-card {
+    background: #f4f4f4;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mv-card h3 {
+    margin-bottom: 10px;
+}
+
+.about-highlights {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about-highlights ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.about-highlights li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+
+
+/* ================================
+   SAFARIS & PACKAGES PAGE
+================================ */
+
+.safari-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("/images/park.jpg") center/cover no-repeat;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.safari-intro {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.packages {
+    padding: 40px 20px;
+}
+
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.package-card {
+    background: #f4f4f4;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.package-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.package-card h3 {
+    margin: 15px 0 10px;
+}
+
+.package-card p {
+    padding: 0 15px;
+}
+
+.package-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+.package-card li {
+    margin: 5px 0;
+}
+
+.custom-safari {
+    padding: 60px 20px;
+    text-align: center;
+    background: #eee;
+}
+
+
+
+/* ================================
+   CONTACT PAGE STYLES
+================================ */
+
+.contact-hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                url("/images/park.jpg") center/cover no-repeat;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-info {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info-card {
+    background: #f4f4f4;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.contact-form-section {
+    padding: 50px 20px;
+    max-width: 700px;
+    margin: auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+.contact-form button {
+    margin-top: 20px;
+}
+
+.contact-map {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.map-container {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Language selector */
+.language-selector {
+    text-align: right;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.language-selector a {
+    color: #004e89;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.language-selector a.active {
+    text-decoration: underline;
+}
+
+/* Social media hover */
+.socialmedia a img {
+    width: 30px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.socialmedia a img:hover {
+    transform: scale(1.2);
+}

@@ -1,6 +1,5 @@
 /* ------------------------------
-   LIAHONA SAFARI MAIN THEME
-   Unique African Cultural Style
+   LIAHONA SAFARI 
 --------------------------------*/
 
 /* ROOT COLORS */
@@ -42,8 +41,10 @@ header {
 }
 
 .logo {
-    width: 110px;
+    max-width: 110px;
     height: auto;
+    display: block;
+    margin: 0 auto;
     border-radius: 8px;
 }
 
@@ -491,95 +492,4 @@ footer p {
 }
 
 
-
-/* ================================
-   MOBILE / RESPONSIVE
-================================ */
-@media (max-width: 768px) {
-
-    /* Header & Navigation */
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header nav {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-    }
-
-    header nav a {
-        margin: 5px 0;
-    }
-
-    /* Language selector */
-    .language-selector {
-        text-align: center;
-        margin-bottom: 10px;
-    }
-
-    /* Hero sections */
-    .contact-hero, .safari-hero, .about-hero, .hero {
-        height: 40vh;
-        padding: 0 10px;
-    }
-
-    .hero-content h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero-content p {
-        font-size: 1rem;
-    }
-
-    /* Info grids */
-    .info-grid, .highlight-grid, .package-grid {
-        grid-template-columns: 1fr;
-    }
-
-    /* Cards */
-    .info-card, .highlight-card, .package-card {
-        margin-bottom: 20px;
-    }
-
-    /* Forms */
-    .contact-form input,
-    .contact-form textarea {
-        font-size: 1rem;
-        padding: 10px;
-    }
-
-    .contact-form button {
-        width: 100%;
-        padding: 12px;
-    }
-
-    /* CTA sections */
-    .cta-section, .custom-safari {
-        padding: 30px 15px;
-    }
-
-    /* Map */
-    .map-container iframe {
-        height: 300px;
-    }
-}
-
-/* Extra small screens (phones) */
-@media (max-width: 480px) {
-
-    .hero-content h1 {
-        font-size: 1.5rem;
-    }
-
-    .hero-content p {
-        font-size: 0.9rem;
-    }
-
-    .cta-btn {
-        font-size: 0.9rem;
-        padding: 10px 15px;
-    }
-}
 
